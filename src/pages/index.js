@@ -4,7 +4,7 @@ import '../components/layout.css'
 import { Helmet } from 'react-helmet'
 import { FaCoffee } from 'react-icons/fa'
 import { Link } from 'gatsby'
-import logo from '../images/logo.svg'
+import logo from '../images/jittery-logo.png'
 
 export default function Home() {
   return (

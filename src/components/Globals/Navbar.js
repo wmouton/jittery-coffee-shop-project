@@ -22,6 +22,13 @@ const Navbar = () => {
         <img className="logo" src={logo} alt="logo" />
       </Link>
       <h1>Navbar Content</h1>
+      <button
+        className="navbar-toggler"
+        type="button"
+        onClick={() => navbarHandler}
+      >
+        <span className="navbar-toggler-icon" />
+      </button>
     </nav>
   )
 }

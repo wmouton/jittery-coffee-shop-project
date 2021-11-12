@@ -6,7 +6,7 @@ import { FaCoffee } from 'react-icons/fa'
 export default function Home() {
   return (
     <Layout>
-      <h1>jittery coffee shop</h1>
+      <h2>Welcome to Jittery!</h2>
       <div className="application">
         <Helmet>
           <meta charSet="utf-8" />

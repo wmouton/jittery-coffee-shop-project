@@ -7,6 +7,7 @@ export default function Home() {
   return (
     <Layout>
       <h2>Welcome to Jittery!</h2>
+      <h6>A shot of jitters to feed your focus.</h6>
       <div className="application">
         <Helmet>
           <meta charSet="utf-8" />

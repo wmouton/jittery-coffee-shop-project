@@ -1,3 +1,22 @@
+:root {
+  --mainBrown: #723201;
+  --mainYellow: rgb(241, 199, 10);
+  --mainGrey: #a5a2a2;
+  --mainWhite: #fff;
+  --mainDark: #333;
+}
+
+body {
+  background: var(--mainWhite);
+  color: var(--mainDark);
+  font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Courier New', Courier, monospace !important;
+  
+}
+
 .logo {
   width: 70px;
 }

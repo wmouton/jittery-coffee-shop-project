@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { Link } from 'gatsby'
 import logo from '../../images/logo.svg'
 import { FaCartArrowDown } from 'react-icons/fa'
@@ -14,7 +14,12 @@ export default class Navbar extends React.Component {
   }
 
   navbarHandler = () => {
-    console.log('hello')
+    this.state.navbarOpen
+      ? this.setState({ navbarOpen: false, css: 'collapse navbar-collapse' })
+      : this.setState({
+          navbarOpen: true,
+          css: 'collapse navbar-collapse show',
+        })
   }
 
   render() {
@@ -41,6 +46,9 @@ export default class Navbar extends React.Component {
                 </li>
               )
             })}
+            <li className="nav-item ml-sm-5">
+              <FaCartArrowDown className="cart-icon" />
+            </li>
           </ul>
         </div>
       </nav>

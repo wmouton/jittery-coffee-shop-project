@@ -22,6 +22,10 @@ h6 {
   letter-spacing: 0.25rem !important;
 }
 
+.text-yellow {
+  color: var(--mainYellow);
+}
+
 .logo {
   width: 70px;
 }

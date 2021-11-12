@@ -6,5 +6,10 @@
 
 module.exports = {
   /* Your site config here */
-  plugins: [],
+  siteMetadata: {
+    title: `Jittery`,
+    description: `Feed your focus with our selection of delicious coffee.`,
+    author: `wmouton`,
+  },
+  plugins: [`gatsby-plugin-react-helmet`],
 }

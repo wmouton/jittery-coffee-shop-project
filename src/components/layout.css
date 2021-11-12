@@ -34,12 +34,16 @@ h6 {
 }
 
 .logo {
-  width: 85px;
+  width: 150px;
 }
 
 .logo-landing {
-  width: 300px;
+  width: 350px;
   align-content: center;
   display: block;
-  margin: 10px auto;
+  margin: 40px auto;
+}
+
+.icon {
+  width: 300px;
 }

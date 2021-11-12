@@ -2,7 +2,7 @@ import React from 'react'
 import Layout from '../components/layout'
 import '../components/layout.css'
 import { Helmet } from 'react-helmet'
-import { FaCoffee } from 'react-icons/fa'
+// import { FaCoffee } from 'react-icons/fa'
 import { Link } from 'gatsby'
 import logo from '../images/jittery-logo.png'
 

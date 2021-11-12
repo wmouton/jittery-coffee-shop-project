@@ -1,6 +1,6 @@
 :root {
   --mainBrown: #723201;
-  --mainYellow: rgb(241, 199, 10);
+  --mainYellow: rgb(191, 157, 6);
   --mainGrey: #a5a2a2;
   --mainWhite: #fff;
   --mainDark: #333;
@@ -24,6 +24,12 @@ h6 {
 
 .text-yellow {
   color: var(--mainYellow);
+}
+
+.cart-icon {
+  cursor: pointer;
+  color: var(--mainYellow);
+  font-size: 2rem;
 }
 
 .logo {

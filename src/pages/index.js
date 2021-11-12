@@ -20,7 +20,7 @@ export default function Home() {
           <title>Jittery Coffee Shop</title>
         </Helmet>
       </div>
-      <FaCoffee />
+      {/* <FaCoffee /> */}
     </Layout>
   )
 }

@@ -20,6 +20,7 @@ h5,
 h6 {
   font-family: 'Courier New', Courier, monospace !important;
   letter-spacing: 0.25rem !important;
+  text-align: center;
 }
 
 .text-yellow {
@@ -33,5 +34,12 @@ h6 {
 }
 
 .logo {
-  width: 70px;
+  width: 85px;
+}
+
+.logo-landing {
+  width: 300px;
+  align-content: center;
+  display: block;
+  margin: 10px auto;
 }

@@ -11,7 +11,7 @@ export default function Home({ data }) {
     <Layout>
       <BackgroundSection
         img={data.img.childImageSharp.fluid}
-        title="jittery coffee shop"
+        title=""
         styleClass="default-background"
       >
         <div>

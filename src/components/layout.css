@@ -50,5 +50,10 @@ h6 {
 }
 
 .default-background {
+  background-repeat: repeat;
   min-height: 100vh;
+  /* display: flexbox; */
+  align-items: center;
+  justify-content: center;
+  /* background-color: linear-gradient(rgba(191, 157, 0.6), rgba(191, 157, 0.6)); */
 }

@@ -39,7 +39,7 @@ h6 {
 }
 
 .logo-landing {
-  width: 320px;
+  width: 310px;
   align-content: center;
   display: block;
   margin: auto;
@@ -55,5 +55,6 @@ h6 {
   /* display: flexbox; */
   align-items: center;
   justify-content: center;
-  /* background-color: linear-gradient(rgba(191, 157, 0.6), rgba(191, 157, 0.6)); */
+  background-position: center;
+  background-size: cover;
 }

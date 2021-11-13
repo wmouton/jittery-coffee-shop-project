@@ -14,9 +14,7 @@ export default function Home({ data }) {
         title=""
         styleClass="default-background"
       >
-        <div>
-          <img className="logo-landing" src={logo} alt="logo-landing" />
-        </div>
+        <img className="logo-landing" src={logo} alt="logo-landing" />
         <h2>Welcome to Jittery!</h2>
         <h5>A shot of jitters to feed your focus.</h5>
         <div className="application">

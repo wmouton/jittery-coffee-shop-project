@@ -1,5 +1,5 @@
 :root {
-  --mainBrown: #723201;
+  --mainBrown: #8d3f03;
   --mainYellow: #f0c70f;
   --mainGrey: #a5a2a2;
   --mainWhite: #fff;
@@ -67,4 +67,8 @@ h6 {
 .btn-yellow:hover {
   background: var(--mainYellow) !important;
   color: var(--mainBrown) !important;
+}
+
+.title {
+  color: var(--mainYellow) !important;
 }

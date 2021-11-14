@@ -10,6 +10,7 @@ export default class Navbar extends React.Component {
     links: [
       { id: 1, path: '/', text: 'home' },
       { id: 2, path: '/about', text: 'about' },
+      { id: 2, path: '/contact', text: 'contact' },
     ],
   }
 

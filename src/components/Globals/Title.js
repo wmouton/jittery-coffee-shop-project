@@ -1,9 +1,13 @@
 import React from 'react'
 
-const Title = ({title}) => {
+const Title = ({ title }) => {
   return (
-    <div>
-      <h1 className='title'>{title}</h1>
+    <div className="row">
+      <div className="col text-venter mb-3">
+        <h1 className="title display-4 text-capitalize font-weight-bold">
+          {title}
+        </h1>
+      </div>
     </div>
   )
 }

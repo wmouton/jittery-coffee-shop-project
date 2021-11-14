@@ -5,6 +5,7 @@ import { Helmet } from 'react-helmet'
 import { graphql } from 'gatsby'
 import logo from '../images/jittery-logo.png'
 import BackgroundSection from '../components/Globals/BackgroundSection'
+import Info from '../components/Home/Info'
 
 export default function Home({ data }) {
   return (
@@ -24,6 +25,7 @@ export default function Home({ data }) {
           </Helmet>
         </div>
       </BackgroundSection>
+      <Info />
     </Layout>
   )
 }

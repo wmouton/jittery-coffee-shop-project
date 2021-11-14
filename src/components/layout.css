@@ -63,6 +63,15 @@ h6 {
   background-size: cover;
 }
 
+.about-background {
+  background-repeat: repeat;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-position: center;
+  background-size: cover;
+}
+
 .btn-yellow {
   color: var(--mainYellow) !important;
   border-color: var(--mainYellow) !important;
@@ -73,8 +82,12 @@ h6 {
   color: var(--mainBrown) !important;
 }
 
-.title {
+.title-story {
   color: var(--mainYellow) !important;
+}
+
+.title-story:hover {
+  color: var(--mainBrown) !important;
 }
 
 .footer {

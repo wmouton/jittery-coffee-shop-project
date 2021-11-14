@@ -16,8 +16,10 @@ export default function Home({ data }) {
         styleClass="default-background"
       >
         <img className="logo-landing" src={logo} alt="logo-landing" />
-        <h2>Welcome to Jittery!</h2>
-        <h5>A shot of jitters to feed your focus.</h5>
+        <div className="heading-sub-heading">
+          <h2>Welcome to Jittery!</h2>
+          <h5>A shot of jitters to feed your focus.</h5>
+        </div>
         <div className="application">
           <Helmet>
             <meta charSet="utf-8" />

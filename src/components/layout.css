@@ -45,6 +45,10 @@ h6 {
   margin: auto;
 }
 
+.heading-sub-heading {
+  margin-top: 40px !important;
+}
+
 .icon {
   width: 300px;
 }

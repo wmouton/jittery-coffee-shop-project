@@ -1,14 +1,13 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import Title from '../Globals/Title'
+import '../layout.css'
 
 const Info = () => {
   return (
     <section className="py-5">
       <div className="container">
-        <div className="title-story">
-          <Title title="Our Story" />
-        </div>
+        <Title title="our story" />
         <div className="row">
           <div className="col-10 col-sm-8 mx-auto text-center">
             <p className="lead text-muted mb-5">
@@ -23,7 +22,7 @@ const Info = () => {
               repellendus beatae, aperiam id consectetur! Provident facere
               maiores amet non, vero eius sunt minus ratione voluptatem!
             </p>
-            <Link to="/about/">
+            <Link to="/about">
               <button className="btn text-uppercase btn-yellow">about</button>
             </Link>
           </div>

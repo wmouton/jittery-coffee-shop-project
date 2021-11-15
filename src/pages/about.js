@@ -9,18 +9,17 @@ import Info from '../components/Home/Info'
 const AboutPage = ({ data }) => {
   return (
     <Layout>
+      <div className="application">
+        <Helmet>
+          <meta charSet="utf-8" />
+          <title>Jittery Coffee Shop</title>
+        </Helmet>
+      </div>
       <BackgroundSection
         img={data.img.childImageSharp.fluid}
         title="About Us"
         styleClass="about-background"
-      >
-        <div className="application">
-          <Helmet>
-            <meta charSet="utf-8" />
-            <title>Jittery Coffee Shop</title>
-          </Helmet>
-        </div>
-      </BackgroundSection>
+      />
       <Info />
     </Layout>
   )

@@ -56,7 +56,6 @@ h6 {
 .default-background {
   background-repeat: repeat;
   min-height: 100vh;
-  /* display: flexbox; */
   align-items: center;
   justify-content: center;
   background-position: center;
@@ -82,12 +81,9 @@ h6 {
   color: var(--mainBrown) !important;
 }
 
-.title-story {
-  color: var(--mainYellow) !important;
-}
-
-.title-story:hover {
-  color: var(--mainBrown) !important;
+h1,
+.title {
+  color: var(--mainDark) !important;
 }
 
 .footer {

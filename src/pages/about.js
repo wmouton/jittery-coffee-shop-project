@@ -19,7 +19,10 @@ const AboutPage = ({ data }) => {
         img={data.img.childImageSharp.fluid}
         title="About Us"
         styleClass="about-background"
-      />
+      >
+        {' '}
+        <h6>Lorem ipsum dolor sit amet.</h6>
+      </BackgroundSection>
       <Info />
     </Layout>
   )

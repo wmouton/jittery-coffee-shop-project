@@ -4,7 +4,8 @@
  * See: https://www.gatsbyjs.com/docs/gatsby-config/
  */
 
-// const path = require(`path`)
+const path = require(`path`)
+// const dotenv = require('dotenv').config()
 
 require('dotenv').config({
   path: `.env.${process.env.NODE_ENV}`,
@@ -26,8 +27,6 @@ module.exports = {
         // path: `${__dirname}/src/images}`,
         path: path.join(__dirname, `src`, `images`),
       },
-    },
-    {
       resolve: `gatsby-source-contentful`,
       options: {
         spaceId: process.env.CONTENTFUL_SPACE_ID,
@@ -35,6 +34,7 @@ module.exports = {
         accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
       },
     },
+
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
   ],

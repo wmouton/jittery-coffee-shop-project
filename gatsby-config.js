@@ -4,7 +4,7 @@
  * See: https://www.gatsbyjs.com/docs/gatsby-config/
  */
 
-const path = require(`path`)
+// const path = require(`path`)
 
 require('dotenv').config({
   path: `.env.${process.env.NODE_ENV}`,
